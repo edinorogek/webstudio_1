@@ -1,0 +1,51 @@
+:root {
+  --main-ff: 'roboto', sans-serif;
+  --logo-ff: 'raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--logo-ff);
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color:#2196F3
+}
+
+nav {
+  font-family: var(--main-ff);
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.navigation:hover {
+  color:#2196F3;
+}
+
+li {
+  list-style: none;
+}
+
+.contact {
+  font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.contact:hover {
+color: #2196F3
+}
